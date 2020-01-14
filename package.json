@@ -1,0 +1,40 @@
+{
+  "name": "sweet-js-common",
+  "version": "0.0.1",
+  "description": "javascript common tools",
+  "main": "src/index.js",
+  "files": [
+    "src/"
+  ],
+  "keyword": [
+    "react",
+    "react-native",
+    "ios",
+    "android"
+  ],
+  "author": {
+    "name": "Hadi AmirNahavandi",
+    "email": "nahavandi.hadi@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "peerDependencies": {
+  },
+  "homepage": "https://github.com/hdnvd/SweetJsCommon",
+  "bugs": {
+    "url": "https://github.com/hdnvd/SweetJsCommon/issues"
+  },
+  "contributors": [
+    {
+      "name": "Hadi AmirNahavandi",
+      "email": "nahavandi.hadi@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hdnvd/SweetJsCommon"
+  }
+}

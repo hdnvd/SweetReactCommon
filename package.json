@@ -1,7 +1,7 @@
 {
-  "name": "sweet-js-common",
+  "name": "sweet-react-common",
   "version": "0.0.1",
-  "description": "javascript common tools",
+  "description": "react common tools",
   "main": "src/index.js",
   "files": [
     "src/"
@@ -23,9 +23,9 @@
   },
   "peerDependencies": {
   },
-  "homepage": "https://github.com/hdnvd/SweetJsCommon",
+  "homepage": "https://github.com/hdnvd/SweetReactCommon",
   "bugs": {
-    "url": "https://github.com/hdnvd/SweetJsCommon/issues"
+    "url": "https://github.com/hdnvd/SweetReactCommon/issues"
   },
   "contributors": [
     {
@@ -35,6 +35,6 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/hdnvd/SweetJsCommon"
+    "url": "https://github.com/hdnvd/SweetReactCommon"
   }
 }

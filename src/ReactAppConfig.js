@@ -13,16 +13,16 @@ class ReactAppConfig {
     global[configName]=value;
   }
   static getSiteUrl(){
-    return this.getConfig('siteurl');
+    return this.getConfig('site-url');
   }
   static setSiteUrl(value){
-    return this.setConfig('siteurl',value);
+    return this.setConfig('site-url',value);
   }
   static getServerType(){
-    return this.getConfig('servertype');
+    return this.getConfig('server-type');
   }
   static setServerType(value){
-    return this.setConfig('servertype',value);
+    return this.setConfig('server-type',value);
   }
   static getDebugging(){
     return this.getConfig('debugging');
@@ -31,11 +31,43 @@ class ReactAppConfig {
     return this.setConfig('debugging',value);
   }
   static getAppName(){
-    return this.getConfig('appname');
+    return this.getConfig('app-name');
   }
   static setAppName(value){
-    return this.setConfig('appname',value);
+    return this.setConfig('app-name',value);
   }
+  static getDefaultPageSize(){
+    return this.getConfig('default-page-size');
+  }
+  static setDefaultPageSize(value){
+    return this.setConfig('default-page-size',value);
+  }
+
+  static getDefaultFontName(){
+    return this.getConfig('font-name');
+  }
+  static setDefaultFontName(value){
+    return this.setConfig('font-name',value);
+  }
+  static getDefaultTextColor(){
+    return this.getConfig('default-text-color');
+  }
+  static setDefaultTextColor(value){
+    return this.setConfig('default-text-color',value);
+  }
+  static getDefaultColor(){
+    return this.getConfig('default-color');
+  }
+  static setDefaultColor(value){
+    return this.setConfig('default-color',value);
+  }
+  static getDefaultBackgroundColor(){
+    return this.getConfig('default-bg-color');
+  }
+  static setDefaultBackgroundColor(value){
+    return this.setConfig('default-bg-color',value);
+  }
+
 
 }
 export default ReactAppConfig;

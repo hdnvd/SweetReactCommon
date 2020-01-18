@@ -36,6 +36,12 @@ class ReactAppConfig {
   static setAppName(value){
     return this.setConfig('app-name',value);
   }
+  static getAppVersion(){
+    return this.getConfig('app-version');
+  }
+  static setAppVersion(value){
+    return this.setConfig('app-version',value);
+  }
   static getDefaultPageSize(){
     return this.getConfig('default-page-size');
   }
